@@ -1,0 +1,72 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+    font-family: 'Segoe UI';
+    height: 100vh;
+}
+.container
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    opacity: 50%;
+}
+h1
+{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    color: rgb(58, 50, 50);
+    display: none;
+}
+#firstText
+{
+    display: block;
+}
+#left
+{
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+#right
+{
+    position: absolute;
+    top: 45%;
+    right: 5%;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+#slider1
+{
+    background-image: url("img1.jpg");
+    background-size: cover; 
+    background-position: center;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#slider2
+{
+    background-image: url("img2.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+#slider3
+{
+    background-image: url("img3.jpg");
+    background-size: cover;
+    background-position: center;
+    display: none;
+    width: 100%;
+    height: 100%;
+}
