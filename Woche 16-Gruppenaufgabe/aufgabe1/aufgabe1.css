@@ -1,0 +1,37 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+    font-family: "Segou UI";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#container
+{
+    width: 250px;
+    text-align: start;
+}
+#container input
+{
+    padding: 8px;
+    width: 100%;
+    border: 1px solid rgb(229, 226, 231);
+    border-radius: 8px;
+}
+#container button
+{
+    width: 100%;
+    margin-top: 10px;
+    padding: 8px 0;
+    background-color: darkorange;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
