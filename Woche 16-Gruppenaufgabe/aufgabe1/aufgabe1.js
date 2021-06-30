@@ -1,13 +1,12 @@
-var button = document.getElementById("button");
-var input = document.getElementById("input");
-var info = document.getElementById("info");
-
-
+var inputText = document.getElementById("input");
+var list = document.getElementById("list");
+var number = 0;
 function add()
 {
-    var number = 1;
-    var div = document.createElement("div");
-    info.innerHTML = "<div>" + number + "." + input.value + "</div>" + "<br>";
-    info.appendChild(div);
     number++;
+    var div = document.createElement("div");
+    list.innerHTML += number + "." + inputText.value + "<br>";
+    list.appendChild(div);
+    inputText.value = "";
 }
+
